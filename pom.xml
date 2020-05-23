@@ -57,5 +57,11 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub university-soa Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/university-soa/covid19-news</url>
+		</repository>
+	</distributionManagement>
 </project>
