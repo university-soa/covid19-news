@@ -30,3 +30,9 @@ you can execute `curl` queries to add new entities, for example:
 #### Used technologies
 - Spring Boot 2.1.1.RELEASE
 - H2 database
+
+#### Build Docker file
+`docker build . --tag covid19:latest`  
+and the start is by:  
+`docker run -d -p 8081:8081 covid19:latest`
+access the app on http://localhost:8081
